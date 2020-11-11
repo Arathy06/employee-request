@@ -14,7 +14,7 @@ app.get("/",(req,res)=>{
 })
 
 
-app.post("/student",(res,req)=>{
+app.post("/employ",(res,req)=>{
 
 var ename=req.body.name ;   
 var empno=parseInt(req.body.num);
